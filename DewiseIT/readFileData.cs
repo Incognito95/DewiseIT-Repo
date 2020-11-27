@@ -7,7 +7,8 @@ public class readFileData
     public void readFileDataZip()
     {
 
-        try {
+     //   try {
+            /*
             Console.WriteLine("Reading...");
             StreamReader sr = new StreamReader("../../../data.json"); // file path
 
@@ -22,5 +23,6 @@ public class readFileData
             Console.WriteLine(e);
             throw;
         }
+        */
     }
 }
