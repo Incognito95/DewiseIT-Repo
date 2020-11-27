@@ -22,3 +22,5 @@
 /Users/danielpedersen/Desktop/DewiseIT-Repo/DewiseIT/obj/Debug/netcoreapp3.1/DewiseIT.dll
 /Users/danielpedersen/Desktop/DewiseIT-Repo/DewiseIT/obj/Debug/netcoreapp3.1/DewiseIT.pdb
 /Users/danielpedersen/Desktop/DewiseIT-Repo/DewiseIT/obj/Debug/netcoreapp3.1/DewiseIT.genruntimeconfig.cache
+/Users/danielpedersen/Desktop/DewiseIT-Repo/DewiseIT/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/danielpedersen/Desktop/DewiseIT-Repo/DewiseIT/obj/Debug/netcoreapp3.1/DewiseIT.csproj.CopyComplete

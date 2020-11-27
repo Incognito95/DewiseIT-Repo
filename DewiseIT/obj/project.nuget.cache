@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "V82pLjidXEO/5yMBoIi5iL2WTx3nguzJjJCb6EDoDSITyY3oDTVPTVmCbq/IqLRiVSaMUCIn8m9vyeBONDDAWA==",
+  "dgSpecHash": "OGbqNGbBRBnhWX0wmACWx8DZFgedijTMuSPSHmsZcnVQvQTVun8uf5bTyxx4gs+qxo0IA3KOQErWa7Tp07NVOA==",
   "success": true,
   "projectFilePath": "/Users/danielpedersen/Desktop/DewiseIT-Repo/DewiseIT/DewiseIT.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/danielpedersen/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
