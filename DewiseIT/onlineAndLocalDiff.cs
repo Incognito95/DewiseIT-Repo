@@ -2,19 +2,19 @@ using System;
 
 namespace DewiseIT
 {
-    public class onlineAndLocalDifference
+    public class OnlineAndLocalDifference
     {
         public void onlineAndLocalDifferenceSubtract()
         {
             try
             {
                 double onlineTwitter = 86327209273.6; // online twitter followers
-                uint fileTwitter = 4044973738; // file twitter followers
+                uint localTwitter = 4044973738; // file twitter followers
 
-                var subTractFollowers = onlineTwitter - fileTwitter;
+                var subTractFollowers = onlineTwitter - localTwitter;
                 
                 
-                Console.WriteLine("Difference between online and file twitter followers are: " + subTractFollowers);
+                Console.WriteLine("Difference between online and local twitter followers are: " + subTractFollowers);
                 
             }
             catch (Exception e)

@@ -15,7 +15,7 @@ namespace DewiseIT
             currentFollowers.getDataJson();
 
             // Twitter followers online / local difference
-            onlineAndLocalDifference onlineAndLocalDifference = new onlineAndLocalDifference();
+            OnlineAndLocalDifference onlineAndLocalDifference = new OnlineAndLocalDifference();
             onlineAndLocalDifference.onlineAndLocalDifferenceSubtract();
                
             // TotalFollowersDiff
