@@ -3,20 +3,18 @@ using System.IO;
 
 namespace DewiseIT
 {
-    public class currentFollowers
+    public class CurrentFollowers
     {
         public void getDataJson()
         {
             try
             {
 
+                // path to file
                 string currentFollowers = File.ReadAllText("../../../online_twitter.csv");
-                Console.WriteLine("--------------------");
-                Console.WriteLine("Local Twitter");
-                Console.WriteLine("-----------");
-                Console.WriteLine("Names: " + "Followers: ");
-                Console.WriteLine("-----------");
-                Console.Write(currentFollowers);
+                Console.WriteLine("Names: " + "Followers:");
+                Console.WriteLine("----------------------");
+                Console.Write(currentFollowers); // log file to console of both the names and followers
 
             }
             catch (Exception e)

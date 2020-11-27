@@ -11,9 +11,10 @@ namespace DewiseIT
                 double onlineTwitter = 86327209273.6; // online twitter followers
                 uint localTwitter = 4044973738; // local twitter followers
 
-                var subTractFollowers = onlineTwitter - localTwitter;
+                // subtract online and local twitter followers to find the difference
+                var subTractFollowers = onlineTwitter - localTwitter; 
                 
-                
+                // log difference to console
                 Console.WriteLine("Difference between online and local twitter followers are: " + subTractFollowers);
                 
             }
@@ -25,6 +26,3 @@ namespace DewiseIT
         }
     }
 }
-
-// online twitter - 86327209273.6 followers
-// file twitter - 4044973738 followers
