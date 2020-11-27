@@ -4,7 +4,7 @@ namespace DewiseIT
 {
     public class OnlineAndLocalDifference
     {
-        public void onlineAndLocalDifferenceSubtract()
+        public void OnlineAndLocalDifferenceSubtract()
         {
             try
             {

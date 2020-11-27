@@ -3,9 +3,9 @@ using System.IO;
 
 namespace DewiseIT
 {
-    public class readFileData
+    public class ReadFileData
     {
-        public void readFileDataZip()
+        public void ReadLineByLine()
         {
 
             try {
