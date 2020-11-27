@@ -10,12 +10,13 @@ namespace DewiseIT
             try
             {
 
-                string getDataLocal = File.ReadAllText("../../../local_twitter.csv");
-                Console.WriteLine("Local Twitter");
+                string getDataLocal = File.ReadAllText("../../../online_twitter.csv");
+                Console.WriteLine("--------------------");
+                Console.WriteLine("Online Twitter");
                 Console.WriteLine("-----------");
                 Console.WriteLine("Names: " + "Followers: ");
                 Console.WriteLine("-----------");
-                Console.WriteLine(getDataLocal);
+                Console.Write(getDataLocal);
                 
                 string getDataOnline = File.ReadAllText("../../../online_twitter.csv");
                 Console.WriteLine("--------------------");
