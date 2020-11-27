@@ -9,7 +9,7 @@ namespace DewiseIT
             try
             {
                 double onlineTwitter = 86327209273.6; // online twitter followers
-                uint localTwitter = 4044973738; // file twitter followers
+                uint localTwitter = 4044973738; // local twitter followers
 
                 var subTractFollowers = onlineTwitter - localTwitter;
                 
