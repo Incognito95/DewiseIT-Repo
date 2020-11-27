@@ -11,7 +11,7 @@ namespace DewiseIT
 
             var totalFollowersDiff = onlineTwitter + fileTwitter;
 
-
+            // total followers diff in decimal number
             Console.WriteLine("Total followers difference in decimal number is: " +  totalFollowersDiff);
             
             // round to the nearest whole number
