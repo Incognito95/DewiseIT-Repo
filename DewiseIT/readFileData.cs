@@ -1,28 +1,29 @@
 using System;
 using System.IO;
 
-
-public class readFileData
+namespace DewiseIT
 {
-    public void readFileDataZip()
+    public class readFileData
     {
+        public void readFileDataZip()
+        {
 
-     //   try {
-            /*
-            Console.WriteLine("Reading...");
-            StreamReader sr = new StreamReader("../../../data.json"); // file path
+            try {
+      
+                Console.WriteLine("Reading json line by line");
+                StreamReader sr = new StreamReader("../../../data.json"); // file path
 
-            // loop through the file
-            string line = sr.ReadLine(); // returns string
+                // loop through the file
+                string line = sr.ReadToEnd(); // returns string
 
-            foreach (var i in line)
-            {
-                Console.WriteLine(line);
+                foreach (var i in line)
+                {
+                    Console.WriteLine(line);
+                }
+            } catch (Exception e) {
+                Console.WriteLine(e);
+                throw;
             }
-        } catch (Exception e) {
-            Console.WriteLine(e);
-            throw;
         }
-        */
     }
 }
