@@ -14,7 +14,7 @@ class readFile
         string[] lines = System.IO.File.ReadAllLines("../../../data.json");
 
         // Display the file contents by using a foreach loop.
-        System.Console.WriteLine("Contents of data.json = ");
+        Console.WriteLine("Contents of data.json = ");
         foreach (string line in lines)
         {
             // Use a tab to indent each line of the file.
