@@ -6,21 +6,21 @@ namespace DewiseIT
     {
         static void Main(string[] args)
         {
-              // get Data
-              getData getData = new getData();
-              getData.getDataJson();
-              
-              // read file
-              readFileData readFileData = new readFileData();
-              readFileData.readFileDataZip(); // read file data
+            // read file line by line
+            LineByLine LineByLine = new LineByLine();
+            LineByLine.ReadLineByLine(); // read file data
+            
+            // current followers online
+            currentFollowers currentFollowers = new currentFollowers();
+            currentFollowers.getDataJson();
+
+            // Twitter followers online / local difference
+            onlineAndLocalDifference onlineAndLocalDifference = new onlineAndLocalDifference();
+            onlineAndLocalDifference.onlineAndLocalDifferenceSubtract();
                
-               // Twitter followers online / file difference
-               onlineAndFileDifference onlineAndFileDifference = new onlineAndFileDifference();
-               onlineAndFileDifference.onlineAndFileDifferences();
-               
-               // TotalFollowersDiff
-               TotalFollowersDiff TotalFollowersDiff = new TotalFollowersDiff();
-               TotalFollowersDiff.TotalFollowersDiffSingleDigit();
+            // TotalFollowersDiff
+            TotalFollowersDiff TotalFollowersDiff = new TotalFollowersDiff();
+            TotalFollowersDiff.TotalFollowersDiffSingleDigit();
         }
 
             

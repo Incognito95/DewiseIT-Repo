@@ -2,9 +2,9 @@ using System;
 
 namespace DewiseIT
 {
-    public class onlineAndFileDifference
+    public class onlineAndLocalDifference
     {
-        public void onlineAndFileDifferences ()
+        public void onlineAndLocalDifferenceSubtract()
         {
             try
             {
