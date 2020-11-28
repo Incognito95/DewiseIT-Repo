@@ -9,16 +9,16 @@
             lineByLine.ReadLineByLine(); // read file data
             
             // current followers online
-           CurrentFollowers currentFollowers = new CurrentFollowers();
-           currentFollowers.getDataJson();
+       //    CurrentFollowers currentFollowers = new CurrentFollowers();
+      //     currentFollowers.getDataJson();
 
             // Twitter followers online / local difference
-            OnlineAndLocalDifference onlineAndLocalDifference = new OnlineAndLocalDifference();
-            onlineAndLocalDifference.OnlineAndLocalDifferenceSubtract();
+         //   OnlineAndLocalDifference onlineAndLocalDifference = new OnlineAndLocalDifference();
+          //  onlineAndLocalDifference.OnlineAndLocalDifferenceSubtract();
                
             // TotalFollowersDiff
-            TotalFollowersDiff totalFollowersDiff = new TotalFollowersDiff();
-            totalFollowersDiff.TotalFollowersDiffSingleDigit();
+         //   TotalFollowersDiff totalFollowersDiff = new TotalFollowersDiff();
+         //   totalFollowersDiff.TotalFollowersDiffSingleDigit();
         }
     }
 }

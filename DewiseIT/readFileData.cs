@@ -1,24 +1,19 @@
 using System;
+using System.IO;
 
 class readFile
 {
     public static void ReadFileZip()
     {
-        // The files used in this example are created in the topic
-        // How to: Write to a Text File. You can change the path and
-        // file name to substitute text files of your own.
+        StreamReader sr = new StreamReader("../../../data.json"); // read file
 
-        // Example #2
-        // Read each line of the file into a string array. Each element
-        // of the array is one line of the file.
-        string[] lines = System.IO.File.ReadAllLines("../../../data.json");
+        string line = sr.ReadLine();
 
-        // Display the file contents by using a foreach loop.
-        System.Console.WriteLine("Contents of data.json = ");
-        foreach (string line in lines)
+        while (line != null) // read all the line
         {
-            // Use a tab to indent each line of the file.
-            Console.WriteLine("\t" + line);
+            Console.WriteLine(line);
+            line = sr.ReadLine(); // read next line if its not null
+            sr.Close();
         }
     }
 }
