@@ -10,7 +10,7 @@ namespace DewiseIT
             try
             {
 
-                // path to file
+                // path to file - ReadAllText is assigned to a method called File
                 string currentFollowers = File.ReadAllText("../../../online_twitter.csv"); // import file with current followers
                 Console.WriteLine("Names: " + "Followers:");
                 Console.WriteLine("----------------------");
