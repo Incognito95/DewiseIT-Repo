@@ -10,7 +10,7 @@
             
             // current followers online
             // CurrentFollowers currentFollowers = new CurrentFollowers();
-      //     currentFollowers.getDataJson();
+            // currentFollowers.getDataJson();
 
             // Twitter followers online / local difference
          //   OnlineAndLocalDifference onlineAndLocalDifference = new OnlineAndLocalDifference();

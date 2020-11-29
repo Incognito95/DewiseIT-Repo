@@ -7,23 +7,18 @@ namespace DewiseIT
     {
         public void ReadLineByLine()
         {
+            try
+            {
 
-            try {
-      
-                Console.WriteLine("Reading json line by line");
-                
-                // using stream reader library to read file
-                StreamReader sr = new StreamReader("../../../data.json"); // file path
-                
-                // method to read file to the end
-                string line = sr.ReadToEnd(); // returns string
+                // path to file
+                string currentFollowers = File.ReadAllText("../../../data.json"); // import data file text, read file to the end
+                Console.WriteLine("Names: " + "Followers:");
+                Console.WriteLine("----------------------");
+                Console.Write(currentFollowers); // log file to console of both the names and followers
 
-                // loop through the file
-                foreach (var i in line)
-                {
-                    Console.WriteLine(line); // console log file to console
-                }
-            } catch (Exception e) {
+            }
+            catch (Exception e)
+            {
                 Console.WriteLine(e);
                 throw;
             }
